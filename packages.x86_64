@@ -202,6 +202,7 @@ gnome-keyring
 b43-fwcutter
 broadcom-wl-dkms
 dnsutils
+iptables
 ipw2100-fw
 ipw2200-fw
 modemmanager
