@@ -40,5 +40,5 @@ sed -i 's/#\(HandleSuspendKey=\)suspend/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleHibernateKey=\)hibernate/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
-systemctl enable NetworkManager.service vboxservice.service vmtoolsd.service vmware-vmblock-fuse.service systemd-networkd-wait-online systemd-timesyncd
+systemctl enable iptables.service NetworkManager.service vboxservice.service vmtoolsd.service vmware-vmblock-fuse.service systemd-networkd-wait-online systemd-timesyncd
 systemctl set-default multi-user.target
